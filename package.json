@@ -1,0 +1,10 @@
+{
+  "name": "pdxe",
+  "description": "Graphical editor for Paradox grand strategy games.",
+  "version": "0.1.0",
+  "main": "main.js",
+  "license": "ISC",
+  "scripts":{
+    "start": "node_modules/.bin/electron ."
+  }
+}
