@@ -8,8 +8,8 @@ let settingsWindow;
 
 app.on('ready', function() {
   mainWindow = new BrowserWindow({
-    width: 600,
-    height: 600
+    width: 1200,
+    height: 1000
   });
 
   var menu = Menu.buildFromTemplate(getMenuItems());

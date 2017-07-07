@@ -14,6 +14,4 @@ document.querySelector('#read').addEventListener('click', function() {
     console.log('clicked');
     var file = 'E:/Documents/Paradox Interactive/Crusader Kings II/mod/Faerun/common/cultures/human.txt';
     var reader = new ParadoxFileReader(file);
-    console.log(reader);
-    var output = reader.getContents();
 });
